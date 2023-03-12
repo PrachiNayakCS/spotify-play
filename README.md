@@ -7,7 +7,7 @@ docker pull prachinayakcs/spotify
 
 2. create an app on spotify developer dashboard  to generate a client ID and client secret' https://developer.spotify.com/dashboard/applications
 
-3. go to spotify's developer console and in the left menu select search and get the track ids of any artist you want
+3. go to spotify's developer console and in the left menu select search and get the track ids of any artist you want(in q* specify 'artist:name' and type* specify'track')
 
 
 ```
