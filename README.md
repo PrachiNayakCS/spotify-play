@@ -8,18 +8,22 @@ docker run -p 80:80 -e SPOTIFY_TRACKID_CSV='trackid1,trackid2' -e SPOTIFY_CLIENT
 
 Once the docker container is running, go to `http://localhost/spotify.php` on a browser.
 
+
+## DockerHub
+DockerHub link: https://hub.docker.com/r/prachinayakcs/spotify
+
 ----
 
 
-# Docker build
+## Docker build
 > docker build -t my-php-app .
 
-# Docker run (local)
+## Docker run (local)
 > docker run -p 80:80 -e SPOTIFY_TRACKID_CSV='' -e SPOTIFY_CLIENT_ID='' -e SPOTIFY_CLIENT_SECRET='' my-php-app:latest
 
-# Docker push to DockerHub
+## Docker push to DockerHub
 > docker tag my-php-app:latest prachinayakcs/spotify:latest
 > docker push prachinayakcs/spotify:latest
 
-# Docker run (public)
+## Docker run (public)
 > docker run -p 80:80 -e SPOTIFY_TRACKID_CSV='' -e SPOTIFY_CLIENT_ID='' -e SPOTIFY_CLIENT_SECRET='' prachinayakcs/spotify:latest
