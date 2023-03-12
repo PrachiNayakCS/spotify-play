@@ -2,6 +2,14 @@
 
 ## Find out the audio features for a given CSV of Spotify track IDs:
 
+1. pull the docker image from dockerhub
+docker pull prachinayakcs/spotify
+
+2. create an app on spotify developer dashboard  to generate a client ID and client secret' https://developer.spotify.com/dashboard/applications
+
+3. go to spotify's developer console and in the left menu select search and get the track ids of any artist you want
+
+
 ```
 docker run -p 80:80 -e SPOTIFY_TRACKID_CSV='trackid1,trackid2' -e SPOTIFY_CLIENT_ID='your-spotify-client-id' -e SPOTIFY_CLIENT_SECRET='your-spotify-client-secret' prachinayakcs/spotify:latest
 ```
