@@ -12,7 +12,7 @@ https://developer.spotify.com/dashboard/applications
 
 
 ```
-docker run -p 80:80 -e SPOTIFY_TRACKID_CSV='trackid1,trackid2' -e SPOTIFY_CLIENT_ID='your-spotify-client-id' -e SPOTIFY_CLIENT_SECRET='your-spotify-client-secret' prachinayakcs/spotify:latest
+docker run -p 80:80 -e SPOTIFY_TRACKID_CSV='trackid1','trackid2' -e SPOTIFY_CLIENT_ID='your-spotify-client-id' -e SPOTIFY_CLIENT_SECRET='your-spotify-client-secret' prachinayakcs/spotify:latest
 ```
 
 Once the docker container is running, go to `http://localhost/spotify.php` on a browser.
