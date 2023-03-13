@@ -11,9 +11,9 @@ https://developer.spotify.com/dashboard/applications
 3. go to spotify's developer console https://developer.spotify.com/console/get-search-item/ and in the left menu select search and get the track ids of any artist you want(in q* specify 'artist:name' and type* specify'track')
 OR 
 use these sample spotify ids in a commaseperated format:
-5y5qNTyfvCQ6s230gLSjlv
-5a4MgIUSf9K8wXLSm6xPEx
-2fICdpdRotwfmGYzvs8Ngf
+5y5qNTyfvCQ6s230gLSjlv<br/>
+5a4MgIUSf9K8wXLSm6xPEx<br/>
+2fICdpdRotwfmGYzvs8Ngf<br/>
 
 
 ```
